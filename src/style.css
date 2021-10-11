@@ -1,1 +1,8 @@
-/* styles go here */
+
+.form_fieldSet {
+  margin-bottom: 20px;
+}
+
+.form_field:not(:last-child) {
+  padding-bottom: 10px;
+}
