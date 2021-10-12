@@ -17,123 +17,121 @@
       method="post"
       onsubmit="onSubmit()"
     >
-      <fieldset class="form_fieldSet">
+      <fieldset class="form_fieldset">
         <legend>Personal information</legend>
         <div class="form_field">
-          <label for="Surname">Surname:</label>
+          <label for="surname">Surname:</label>
           <input
             type="text"
-            name="Surname"
-            id="Surname"
-          ></input>
+            name="surname"
+            id="surname"
+          >
         </div>
         <div class="form_field">
-          <label for="Name">Name:</label>
+          <label for="name">Name:</label>
           <input
             type="text"
-            name="Name"
-            id="Name"
-          ></input>
+            name="name"
+            id="name"
+          >
         </div>
         <div class="form_field">
-          <label for="Age">How old are You?</label>
+          <label for="age">How old are You?</label>
           <input
             type="number"
-            name="Age"
+            name="age"
             min="12"
             max="100"
             value="12"
-            id="Age"
-          ></input>
+            id="age"
+          >
         </div>
         <div class="form_field">
-          <label for="BirthDate">Full date of birth:</label>
+          <label for="birthDate">Full date of birth:</label>
           <input
             type="date"
-            name="BirthDate"
-            id="BirthDate"
-          ></input>
+            name="birthDate"
+            id="birthDate"
+          >
         </div>
         <div class="form_field">
-          <label for="Terms">I accept the term of the agreement</label>
+          <label for="terms">I accept the term of the agreement</label>
           <input
             type="checkbox"
-            name="Terms"
+            name="terms"
             required
-            id="Terms"
-          ></input>
+            id="terms"
+          >
         </div>
       </fieldset>
-      <fieldset class="form_fieldSet">
+      <fieldset class="form_fieldset">
         <legend>Registration</legend>
         <div class="form_field">
-          <label for="E-mail">E-mail:</label>
+          <label for="e-mail">E-mail:</label>
           <input
             type="email"
-            name="E-mail"
+            name="e-mail"
             required
             placeholder="email@example.com"
-            id="E-mail"
-          ></input>
+            id="e-mail"
+          >
         </div>
         <div class="form_field">
-          <label for="Password">Password:</label>
+          <label for="password">Password:</label>
           <input
             type="password"
-            name="Password"
+            name="password"
             required
-            id="Password"
-          ></input>
+            id="password"
+          >
         </div>
       </fieldset>
-      <fieldset class="form_fieldSet">
+      <fieldset class="form_fieldset">
         <legend>An interesting fact about you!</legend>
         <div class="form_field">
           Do you love cats?
           <label for="Agree">
             <input type="radio"
-              name="lc"
+              name="loveCats"
               value="y"
               required
               id="Agree"
-            ></input>
+            >
             Yes
           </label>
           <label for="Reject">
             <input
               type="radio"
-              name="lc"
+              name="loveCats"
               value="n"
               required
               id="Reject"
-            ></input>
+            >
             No
           </label>
         </div>
         <div class="form_field">
-          <label for="Color">What is your favorite color?</label>
+          <label for="color">What is your favorite color?</label>
           <input
             type="color"
-            name="Color"
+            name="color"
             multiple
-            id="Color"
-          ></input>
+            id="color"
+          >
         </div>
         <div class="form_field">
-          <label for="SleepTime">What time do you go to bed?</label>
+          <label for="sleepTime">What time do you go to bed?</label>
           <input
             type="time"
-            name="SleepTime"
-            min="00:00"
-            max="23:59"
-            id="SleepTime"
-          ></input>
+            name="sleepTime"
+            id="sleepTime"
+          >
         </div>
         <div class="form_field">
-          <label for="Carbrand">What are your favorite brand of cars?</label>
+          <label for="carBrand">What are your favorite brand of cars?</label>
           <select
-            name="Carbrand"
-            id="Carbrand"
+            name="carBrand"
+            id="carBrand"
             multiple
           >
             <option value="Audi">Audi</option>
@@ -142,36 +140,35 @@
           </select>
         </div>
         <div class="form_field">
-          <label for="Rate">How do you rate our work?</label>
+          <label for="rate">How do you rate our work?</label>
           <input
             type="range"
-            name="Rate"
+            name="rate"
             min="0"
             max="10"
-            id="Rate"
-          ></input>
+            id="rate"
+          >
         </div>
       </fieldset>
-      <fieldset class="form_fieldSet">
+      <fieldset class="form_fieldset">
         <legend>Additional info:</legend>
         <div class="form_field">
-          <label for="Comment">Comments:</label>
+          <label for="comment">Comments:</label>
           <textarea
-            name="Comment"
+            name="comment"
             cols="20"
             rows="2"
             autocomplete="off"
             minlength="0"
-            maxlength="100"
-            id="Comment"
+            id="comment"
           >
           </textarea>
         </div>
         <div class="form_field">
-          <label for="Recomandation">Would you recomend us?</label>
+          <label for="recomandation">Would you recomend us?</label>
           <select
-            name="Recomandation"
-            id="Recomandation"
+            name="recomandation"
+            id="recomandation"
           >
             <option value="yes">yes</option>
             <option value="no">no</option>
